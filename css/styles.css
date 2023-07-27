@@ -1,0 +1,114 @@
+header {
+  display: grid;
+  column-gap: auto;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+#nombre {
+  background-color: yellow;
+}
+
+#apellido {
+  background-color: yellow;
+}
+
+#enviar {
+  background-color: orange;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+h1 {
+  display: inline-block;
+  color: green;
+}
+
+body {
+  background-color: yellow;
+}
+
+#instagram {
+  width: 200px;
+  height: 200px;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.sectioninicio {
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.sectionclientes {
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.sectionquienessomos {
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+.sectionservicios {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+
+.maincontacto {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: chocolate;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: violet;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    background-color: aqua;
+  }
+}
+@media (min-width: 1024px) {
+  header {
+    text-align: right;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    text-align: left;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
