@@ -1,5 +1,13 @@
-$colores-titulos:green
-
+@mixin letra{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 4px,solid,black;
+     }
+h1{
+    @include letra()
+}
+.div{
+    @include letra()
+}
 
  
 
